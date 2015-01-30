@@ -20,5 +20,8 @@
     <string name="text_wombat">Wombat</string>
     <string name="text_wombat_description">Wombats are thick-bodied animals that have short, powerful legs with strong claws used for burrowing. They range in length from 70 to 120 cm (27-47 in) and weigh up to 35 kg (77 lb).</string>
     <string name="text_wombat_habitat">They are native to the eastern half of Australia and to the island of Tasmania south of Australia.</string>
+    <string name="text_gecko">Gecko</string>
+    <string name="text_gecko_description">Geckos are a wide-ranging group of reptiles. Some of them are slender-bodied, while others are more robust. The size range between the smallest and largest gecko species is noticeable.</string>
+    <string name="text_gecko_habitat">The gecko is a small to medium species of lizard that is found in the more temperate and tropical regions of the world. Geckos are more commonly found around the Equator and in the Southern Hemisphere although a few species of gecko are found north of the Equator in warmer regions.</string>
 
 </resources>

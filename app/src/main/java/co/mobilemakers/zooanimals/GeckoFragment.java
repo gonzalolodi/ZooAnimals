@@ -12,12 +12,12 @@ import android.widget.Button;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class WombatFragment extends Fragment {
-    Button mButtonWombatDescription;
-    Button mButtonWombatNext;
+public class GeckoFragment extends Fragment {
+    Button mButtonGeckoInfo;
+    Button mButtonGeckoNext;
 
 
-    public WombatFragment() {
+    public GeckoFragment() {
         // Required empty public constructor
     }
 
@@ -25,16 +25,16 @@ public class WombatFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.fragment_wombat, container, false);
+        View view=inflater.inflate(R.layout.fragment_gecko, container, false);
         prepareButtons(view);
         return view;
     }
 
     private void prepareButtons(View view) {
-        mButtonWombatDescription= (Button) view.findViewById(R.id.button_wombat_description);
-        mButtonWombatNext=(Button) view.findViewById(R.id.button_wombat_next);
-        mButtonWombatDescription.setOnClickListener((View.OnClickListener)getActivity());
-        mButtonWombatNext.setOnClickListener((View.OnClickListener)getActivity());
+        mButtonGeckoInfo=(Button) view.findViewById(R.id.button_gecko_description);
+        mButtonGeckoNext=(Button) view.findViewById(R.id.button_gecko_next);
+        mButtonGeckoInfo.setOnClickListener((View.OnClickListener)getActivity());
+        mButtonGeckoNext.setOnClickListener((View.OnClickListener)getActivity());
     }
 
 
