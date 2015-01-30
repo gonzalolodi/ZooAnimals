@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ZooAnimals</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_start">Welcome to our Local Zoo!</string>
+    <string name="button_start">See our animals!</string>
+    <string name="text_brown_bear_description">It is a big animal with either lighter or darker brown fur. Tail is short and not well seen among its fur. Bears walk like humans do on their soles.</string>
+    <string name="text_brwon_bear_habitat">Brown bears can be found in many habitats, from the fringes of deserts to high mountain forests and ice fields.</string>
+    <string name="text_habitat">Habitat</string>
+    <string name="text_description">Description</string>
+    <string name="text_brown_bear">Brown Bear</string>
+    <string name="button_next_animal">Next animal</string>
+    <string name="button_show_description">Description</string>
+
+</resources>
