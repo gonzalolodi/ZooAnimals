@@ -79,6 +79,14 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 fragmentManager.beginTransaction().
                         replace(R.id.frame_main, new GeckoInfoFragment()).addToBackStack(null).commit();
                 break;
+            case (R.id.button_gecko_next):
+                fragmentManager.beginTransaction().
+                        replace(R.id.frame_main, new CoralSnakeFragment()).addToBackStack(null).commit();
+                break;
+            case (R.id.button_coral_snake_description):
+                fragmentManager.beginTransaction().
+                        replace(R.id.frame_main, new CoralSnakeInfoFragment()).addToBackStack(null).commit();
+                break;
 
 
         }
