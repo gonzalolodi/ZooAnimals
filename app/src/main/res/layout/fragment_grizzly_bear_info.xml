@@ -1,7 +1,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="co.mobilemakers.zooanimals.BrownBearInfoFragment">
+    tools:context="co.mobilemakers.zooanimals.GrizzlyBearFragmentInfo">
 
     <!-- TODO: Update blank fragment layout -->
     <ImageView
@@ -25,22 +25,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/text_brown_bear"
-            android:id="@+id/text_brown_bear" />
+            android:text="@string/text_grizzly_bear"
+            android:id="@+id/text_grizzly_bear" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/text_description"
-            android:id="@+id/text_brown_bear_info" />
+            android:id="@+id/text_description" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/text_brown_bear_description"
-            android:id="@+id/text_brown_bear_description" />
+            android:text="@string/text_grizzly_bear_description"
+            android:id="@+id/text_grizzly_bear_description" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -53,8 +53,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/text_brwon_bear_habitat"
-            android:id="@+id/text_brown_bear_habitat" />
+            android:text="@string/text_grizzly_bear_habitat"
+            android:id="@+id/text_grizzly_bear_habitat" />
     </LinearLayout>
 
 </FrameLayout>

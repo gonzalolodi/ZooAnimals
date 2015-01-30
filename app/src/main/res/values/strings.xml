@@ -14,5 +14,8 @@
     <string name="text_brown_bear">Brown Bear</string>
     <string name="button_next_animal">Next animal</string>
     <string name="button_show_description">Description</string>
+    <string name="text_grizzly_bear">Grizzly Bear</string>
+    <string name="text_grizzly_bear_description">Grizzly bears are majestic symbols of the wild. Bears live in and use a variety of habitat types, playing important roles in each one.</string>
+    <string name="text_grizzly_bear_habitat">Grizzly bears are found many different habitats, from dense forests to subalpine meadows, open plains and arctic tundra. In North America, grizzly bears are found in western Canada, Alaska, Wyoming, Montana, Idaho and a potentially a small population in Washington.</string>
 
 </resources>
