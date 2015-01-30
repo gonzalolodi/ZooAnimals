@@ -12,12 +12,12 @@ import android.widget.Button;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class GrizzlyBearFragment extends Fragment {
-    Button mButtonGrizzlyInfo;
-    Button mButtonGrizzlyNext;
+public class WombatFragment extends Fragment {
+    Button mButtonWombatDescription;
+    Button mButtonWombatNext;
 
 
-    public GrizzlyBearFragment() {
+    public WombatFragment() {
         // Required empty public constructor
     }
 
@@ -25,17 +25,16 @@ public class GrizzlyBearFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         View view=inflater.inflate(R.layout.fragment_grizzly_bear, container, false);
         prepareButtons(view);
         return view;
     }
 
     private void prepareButtons(View view) {
-        mButtonGrizzlyInfo=(Button) view.findViewById(R.id.button_grizzly_bear_description);
-        mButtonGrizzlyNext=(Button) view.findViewById(R.id.button_grizzly_bear_next);
-        mButtonGrizzlyInfo.setOnClickListener((View.OnClickListener)getActivity());
-        mButtonGrizzlyNext.setOnClickListener((View.OnClickListener)getActivity());
+        mButtonWombatDescription= (Button) view.findViewById(R.id.button_wombat_description);
+        mButtonWombatNext=(Button) view.findViewById(R.id.button_wombat_next);
+        mButtonWombatDescription.setOnClickListener((View.OnClickListener)getActivity());
+        mButtonWombatNext.setOnClickListener((View.OnClickListener)getActivity());
     }
 
 

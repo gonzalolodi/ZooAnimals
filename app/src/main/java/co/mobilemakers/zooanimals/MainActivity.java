@@ -59,7 +59,16 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 fragmentManager.beginTransaction().
                         replace(R.id.frame_main, new GrizzlyBearFragment()).addToBackStack(null).commit();
                 break;
-
+            case (R.id.button_grizzly_bear_description):
+                fragmentManager.beginTransaction().
+                        replace(R.id.frame_main, new GrizzlyBearFragmentInfo()).addToBackStack(null).commit();
+                break;
+            case (R.id.button_grizzly_bear_next):
+                fragmentManager.beginTransaction().
+                        replace(R.id.frame_main, new WombatFragment()).addToBackStack(null).commit();
+            case (R.id.button_wombat_description):
+                fragmentManager.beginTransaction().
+                        replace(R.id.frame_main, new WombatInfoFragment()).addToBackStack(null).commit();
 
 
         }
