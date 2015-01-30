@@ -1,5 +1,6 @@
 package co.mobilemakers.zooanimals;
 
+import android.app.Activity;
 import android.app.FragmentManager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -8,7 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class MainActivity extends ActionBarActivity implements View.OnClickListener{
+public class MainActivity extends Activity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +54,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             case (R.id.button_brown_bear_description):
                 fragmentManager.beginTransaction().
                         replace(R.id.frame_main, new BrownBearInfoFragment()).addToBackStack(null).commit();
+                break;
+            case (R.id.button_brown_bear_next):
+                fragmentManager.beginTransaction().
+                        replace(R.id.frame_main, new GrizzlyBearFragment()).addToBackStack(null).commit();
                 break;
 
 
