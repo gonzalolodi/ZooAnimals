@@ -14,13 +14,15 @@ tools:context="co.mobilemakers.zooanimals.BrownBearFragment">
 <LinearLayout
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="fill_parent">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:id="@+id/imageView"
-        android:src="@drawable/brown_bear" />
+        android:src="@drawable/brown_bear"
+        android:scaleType="center"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>
 
 <LinearLayout
@@ -34,7 +36,8 @@ tools:context="co.mobilemakers.zooanimals.BrownBearFragment">
         android:layout_height="wrap_content"
         android:text="@string/button_show_description"
         android:id="@+id/button_brown_bear_description"
-        android:layout_gravity="left" />
+        android:layout_gravity="left"
+        android:background="@drawable/button_state"/>
 
     <LinearLayout
         android:orientation="vertical"
@@ -46,7 +49,8 @@ tools:context="co.mobilemakers.zooanimals.BrownBearFragment">
             android:layout_height="wrap_content"
             android:text="@string/button_next_animal"
             android:id="@+id/button_brown_bear_next"
-            android:layout_gravity="right" />
+            android:layout_gravity="right"
+            android:background="@drawable/button_state"/>
     </LinearLayout>
 
 </LinearLayout>

@@ -16,7 +16,7 @@
     <string name="button_show_description">Description</string>
     <string name="text_grizzly_bear">Grizzly Bear</string>
     <string name="text_grizzly_bear_description">Grizzly bears are majestic symbols of the wild. Bears live in and use a variety of habitat types, playing important roles in each one.</string>
-    <string name="text_grizzly_bear_habitat">Grizzly bears are found many different habitats, from dense forests to subalpine meadows, open plains and arctic tundra. In North America, grizzly bears are found in western Canada, Alaska, Wyoming, Montana, Idaho and a potentially a small population in Washington.</string>
+    <string name="text_grizzly_bear_habitat">Grizzly bears are found many different habitats, from dense forests to subalpine meadows, open plains and arctic tundra. In North America, grizzly bears are found in western Canada, Alaska, Wyoming, Montana, Idaho</string>
     <string name="text_wombat">Wombat</string>
     <string name="text_wombat_description">Wombats are thick-bodied animals that have short, powerful legs with strong claws used for burrowing. They range in length from 70 to 120 cm (27-47 in) and weigh up to 35 kg (77 lb).</string>
     <string name="text_wombat_habitat">They are native to the eastern half of Australia and to the island of Tasmania south of Australia.</string>
@@ -26,5 +26,8 @@
     <string name="text_coral_snake">Coral Snake</string>
     <string name="text_coral_snake_description">This iconic snake, with its bulbous head and red, yellow, and black bands, is famous for its potent venom.</string>
     <string name="text_coral_snake_habitat">They live in the wooded, sandy, and marshy areas of the southeastern United States, and spend most of their lives burrowed underground or in leaf piles.</string>
+    <string name="text_tortoise">Tortoise</string>
+    <string name="text_tortoise_description">Tortoises are a family, of land-dwelling turtles in the order Testudines. Contrary to popular belief, tortoises are in fact turtles rather than part of a separate group.</string>
+    <string name="text_tortoise_habitat">Sandy soil close to water</string>
 
 </resources>
